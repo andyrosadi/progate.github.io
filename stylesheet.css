@@ -1,0 +1,221 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+}
+
+.topkonten {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.topkonten h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+
+.topkonten p {
+  margin-bottom: 3px;
+  color: white;
+  opacity: 0.7;
+}
+
+.tombolkonten {
+  padding: 20px 0;
+}
+
+.tombolkonten p {
+  margin: 10px 0;
+}
+
+.tbl:hover {
+  opacity: 1;
+}
+
+.tbl {
+  padding: 12px 24px;
+  display: inline-block;
+  color: white;
+  opacity: 0.8;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.email {
+  background-color: #239b76;
+}
+
+.fb {
+  background-color: #3b5998;
+}
+
+.tw {
+  background-color: #55acee;
+}
+
+.gb {
+  margin-right: 5px;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.headerloc {
+  width: 1170px;
+  margin: auto;
+}
+
+.logokiri {
+  float: left;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.login {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login a {
+ line-height: 65px;
+ padding-left: 25px;
+ padding-right: 25px;
+ color: white;
+ display: block;
+}
+
+.isi {
+  height: 580px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.judul {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.judul h2 {
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.materi {
+  width: 1170px;
+  margin: auto;
+  background-color: #f7f7f7;
+}
+
+.pilihan {
+  float: left;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+
+.logopilihan {
+  position: relative;
+}
+
+.logopilihan p {
+  position: absolute;
+  color: white;
+  top: 90px;
+  width: 100%;
+}
+
+.teks {
+  font-size: 15px;
+  padding-top: 20px;
+  color: #b3aeb5;
+  width: 80%;
+  display: inline-block;
+}
+
+.isiklik {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  width: 1170px;
+  margin: auto;
+  text-align: center;
+}
+
+.perintah h2 {
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.perintah h3 {
+  font-weight: normal;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.mulai {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.mulai:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  width: 1170px;
+  margin: auto;
+  border-top: 1px solid #eee;
+}
+
+.logobawah {
+  padding-top: 30px;
+  width: 124px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
